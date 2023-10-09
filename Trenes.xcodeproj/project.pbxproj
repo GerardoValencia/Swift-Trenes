@@ -15,6 +15,8 @@
 		AA51AB7B2AD0D6A000B0F9B5 /* TrenesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA51AB7A2AD0D6A000B0F9B5 /* TrenesUITests.swift */; };
 		AA51AB7D2AD0D6A000B0F9B5 /* TrenesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA51AB7C2AD0D6A000B0F9B5 /* TrenesUITestsLaunchTests.swift */; };
 		AA51AB8A2AD0D96B00B0F9B5 /* TrainCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA51AB892AD0D96B00B0F9B5 /* TrainCardView.swift */; };
+		AA51ABC22AD3747E00B0F9B5 /* MeansOfTransportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA51ABC12AD3747E00B0F9B5 /* MeansOfTransportView.swift */; };
+		AA51ABC42AD3767200B0F9B5 /* CardViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA51ABC32AD3767200B0F9B5 /* CardViewModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		AA51AB7A2AD0D6A000B0F9B5 /* TrenesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrenesUITests.swift; sourceTree = "<group>"; };
 		AA51AB7C2AD0D6A000B0F9B5 /* TrenesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrenesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AA51AB892AD0D96B00B0F9B5 /* TrainCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainCardView.swift; sourceTree = "<group>"; };
+		AA51ABC12AD3747E00B0F9B5 /* MeansOfTransportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeansOfTransportView.swift; sourceTree = "<group>"; };
+		AA51ABC32AD3767200B0F9B5 /* CardViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,9 @@
 			children = (
 				AA51AB5F2AD0D69F00B0F9B5 /* TrenesApp.swift */,
 				AA51AB612AD0D69F00B0F9B5 /* ContentView.swift */,
+				AA51ABC32AD3767200B0F9B5 /* CardViewModifier.swift */,
 				AA51AB892AD0D96B00B0F9B5 /* TrainCardView.swift */,
+				AA51ABC12AD3747E00B0F9B5 /* MeansOfTransportView.swift */,
 				AA51AB632AD0D6A000B0F9B5 /* Assets.xcassets */,
 				AA51AB652AD0D6A000B0F9B5 /* Preview Content */,
 			);
@@ -262,6 +268,8 @@
 			files = (
 				AA51AB622AD0D69F00B0F9B5 /* ContentView.swift in Sources */,
 				AA51AB602AD0D69F00B0F9B5 /* TrenesApp.swift in Sources */,
+				AA51ABC42AD3767200B0F9B5 /* CardViewModifier.swift in Sources */,
+				AA51ABC22AD3747E00B0F9B5 /* MeansOfTransportView.swift in Sources */,
 				AA51AB8A2AD0D96B00B0F9B5 /* TrainCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

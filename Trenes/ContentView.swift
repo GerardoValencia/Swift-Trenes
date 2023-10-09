@@ -8,7 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var pressed: Bool = false
+    @State var place : String = ""
     var body: some View {
+        VStack{
+            TextField("¿A dónde deseas viajar?", text: $place).padding()
+            Text("Viajaremos a \(place)")
+        }
+        ScrollView(.horizontal){
+            HStack(){
+                MeansOfTransportView(name: "Tren", icon: "tram", pressed: $pressed)
+                MeansOfTransportView(name: "Bus", icon: "bus", pressed: $pressed)
+                MeansOfTransportView(name: "Avión", icon: "airplane", pressed: $pressed)
+                MeansOfTransportView(name: "Ferry", icon: "ferry.fill", pressed: $pressed)
+            }
+        }
         ScrollView(){
             TrainCardView(name: "Tren Bala Kodama", iconColor: Color.yellow)
             TrainCardView(name: "Tren Bala Nozomi", iconColor: Color.green)
